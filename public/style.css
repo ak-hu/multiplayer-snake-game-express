@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
+:root{
+    --dark_green: #00723e;
+    --red: #ff6f69;
+    --yellow: #fdc351;
+    --light_green: #CCECDE;
+
+}
+body{
+    font-family: 'BIZ UDPGothic', sans-serif;
+    background-color: var(--light_green);
+}
+
+.section{
+    margin-top: 2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    margin-top: 30px;
+    color: #00723e;
+}
+h1{
+    font-size: 3rem;
+}
+img{
+    width: 20%;
+}
+#gameCodeInput{
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--dark_green);
+    
+}
+#gameCodeInput:focus,
+#gameCodeInput:active {
+    outline: none;
+}
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+.btn+.btn{
+    margin-left: 20px;
+}
+#newGameButton{
+    background-color: var(--red);
+    color: white;
+    border: 2px solid var(--red);
+}
+#newGameButton:focus,
+#newGameButton:hover,
+#newGameButton:active {
+    background-color: #fff;
+    color: var(--red);
+}
+
+#joinGameButton{
+    background-color: #fff;
+    color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+
+#joinGameButton:focus,
+#joinGameButton:hover,
+#joinGameButton:active {
+    background-color:  var(--yellow);
+    color: #fff;
+}
+
+#gameScreen{
+    display: none;
+}
+.field{
+    background-color: #fff;
+}

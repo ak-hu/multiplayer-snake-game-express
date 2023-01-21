@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplayer Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="img/ico" href="snake.ico">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <section>
+        <div class="section" id="initialScreen">
+            <img src="snake.png" alt="" class="">
+            <h1>Multiplayer Snake</h1>
+            <input type="text" placeholder="Enter Game Code" id="gameCodeInput">
+
+            <div class="buttons">
+                <button type="submit" class="btn" id="newGameButton"> New Game</button>
+                <button type="submit" class="btn" id="joinGameButton">Join Game</button>
+            </div>
+        </div>
+        <div class="section" id="gameScreen">
+            <h2>Your game code is: <span id="gameCodeDisplay"></span></h2>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
