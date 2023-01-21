@@ -65,7 +65,7 @@ function paintGame(state) {
 	svg.classList.add('field');
 	gameScreen.appendChild(svg);
 
-	field = 400;
+	const field = 400;
 
 	const gridsize = state.gridsize;
 	const size = field / gridsize;
