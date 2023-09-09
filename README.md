@@ -1,6 +1,6 @@
 # Multiplayer Snake Game
  
-Multiplayer Snake Game is a classic arcade game where players control snakes that grow in length as they eat food and try to avoid colliding with walls or their own bodies. This version of the game focuses on providing a multiplayer experience for multiple players to compete against each other in real-time.
+Multiplayer Snake is a classic arcade game where players control snakes that grow in length as they eat food and try to avoid colliding with walls or their own bodies. This version of the game focuses on providing a multiplayer experience for multiple players to compete against each other in real-time.
 
 ## Features
 
